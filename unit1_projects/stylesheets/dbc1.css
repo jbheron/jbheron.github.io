@@ -2,3 +2,17 @@ p {
 	background-image: 
 
 }
+
+.carrot {
+  color: orange;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h1, h2, h3 {
+	background-color: navy;
+}
+
+h4, h5, h6 {
+	color: navy;
+}
