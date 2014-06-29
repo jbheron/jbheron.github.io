@@ -31,7 +31,8 @@ body{
 
 #lefty_zone {
 	width: 15%
-	padding: 20px;
+	padding-left: 20px;
+	float: left;
 	background: #708090;
 
 }
