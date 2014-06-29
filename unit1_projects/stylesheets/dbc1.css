@@ -11,3 +11,12 @@ h4, h5, h6 {
 hr {
 	width: 50;
 }
+
+#main_border {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #666;
+  background: #ffffff;
+	
+}
