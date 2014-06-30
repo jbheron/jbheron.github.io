@@ -7,12 +7,15 @@
 	background: silver;
 }
 
+
+
+
 #main { 
 	position: absolute; 
 	padding: 88px;
 	top: 0; 
 	right: 0; 
-	bottom: 300px; 
+	bottom: 0; 
 	left: 20%; 
 	background: #B0E0E6;
 }
@@ -23,17 +26,16 @@
 	padding-top: 8%;
 	top: 0;
 	right: 80%; 
-	bottom: 300px;
+	bottom: 0;
 	left: 0;
 	background: #808080;
 }
 
-
-}
-
 #footer {
-	position: relative; 
-	bottom: 0px; 
+	position: absolute; 
+	bottom: 30px; 
 	left: 50px; 
 
 }
+
+
