@@ -1,4 +1,12 @@
 
+
+body {
+	background-color: silver;
+	font-family: Helvetica;
+	/*padding-right: 80px;
+	 border:1px solid blue */
+}
+
 #header {
 	position: fixed; 
 	top: 0; 
