@@ -23,7 +23,7 @@ body {
 	padding: 88px;
 	top: 0; 
 	right: 0; 
-	bottom: 0; 
+	bottom: -1000; 
 	left: 20%; 
 	background: #B0E0E6;
 }
