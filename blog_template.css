@@ -3,8 +3,8 @@
 body {
 	background-color: silver;
 	font-family: Helvetica;
-	/*padding-right: 80px;
-	 border:1px solid blue */
+	
+	
 }
 
 #header {
@@ -12,7 +12,7 @@ body {
 	top: 0; 
 	left: 0; 
 	right: 0; 
-	background: silver;
+	background: blue;
 }
 
 
@@ -20,27 +20,29 @@ body {
 
 #main { 
 	position: absolute; 
-	padding: 88px;
+	padding: 100px 100px 200px 100px;
+	margin-right: 200px;
 	top: 0; 
 	right: 0; 
 	bottom: -1000; 
 	left: 20%; 
 	background: #B0E0E6;
+	font-size: large;
 }
 
 
 #gutter_left{ 
-	position: absolute;
+	position: fixed;
 	padding-top: 8%;
 	top: 0;
 	right: 80%; 
-	bottom: 0;
+	bottom: -1000;
 	left: 0;
-	background: #808080;
+	
 }
 
 #footer {
-	position: absolute; 
+	position: fixed; 
 	bottom: 30px; 
 	left: 50px; 
 
