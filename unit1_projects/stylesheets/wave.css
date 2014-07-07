@@ -1,0 +1,239 @@
+body {
+	background: white;
+
+}
+
+nav {
+	display: inline-block;
+	position: fixed;
+	top: -1%	;
+	left: 12%;
+	}
+
+header img {
+	position: fixed;
+	max-width: 13%;
+	height: auto;
+	top: 0.2%;
+	left: 0.2%;
+	border-style: double;
+	border-color: #800000;
+	border-width: 9px;
+	border-radius: 3px;
+	padding: 100px:
+	margin: 100px;
+	background: #F5DEB3;
+	/*z-index: -4;*/
+}
+
+nav ul li {
+	display: block;
+	font:normal bolder 12px/18px Shojumaru, monospace, serif;
+
+}
+
+/*Space for background image and caption*/
+#container {
+	display: inline;
+	background: white;
+
+}
+#container::after {
+	content: "";
+	background: url("../images/The-Great-Wave-Off-Kanagawa-1832.jpg");
+	background-size: 100% auto;
+	opacity: 0.3;
+	top: 0;
+	left: 14%;
+	bottom: 15%;
+	right: 0;
+	position: fixed;
+	z-index: -5;   
+}
+
+#caption {
+	width: 60%;
+	height: 12%;
+	font-size: 3em;
+	padding-top: 1.4%;
+	bottom: 0;
+	left: 35%;
+	right: 2%;
+	position: fixed;
+	font-family: Georgia;
+	color: #A9A9A9;
+	font-family: "Times New Roman", Times, serif;
+	z-index: -2;
+	background-color: white; 
+
+}
+
+/*Scrolling main text on right side*/
+#main-text {
+	display: block;
+	position: absolute;
+	top: -8%;
+	left: 40%;
+	height: 82%;
+	width: 55%;
+	/*bottom: 23%;*/
+	margin: 5% 0% 0% 0% ;
+	/*overflow: scroll;*/
+	/*margin-bottom: 33%;*/
+	font:italic bolder 24px/36px Georgia, serif;
+	z-index: -3;
+}
+
+pre {
+	font-size: 16px;
+}
+
+article a {
+	display: block;
+}
+
+aside {
+	font-family: "Times New Roman", Times, serif;
+	top: 15%;
+	bottom: 15%;
+	left: 5%;
+	right: 50%;
+
+}
+/*aside > #sidebar > ul > li (topics) > ul > li (links)*/
+
+aside *  { 
+	padding:0; 
+	margin: 0; 
+	float:left;
+	font: 1em Shojumaru; 
+	display: block;
+}
+
+/*aside > #sidebar > ul > li (topics) > ul > li (links)*/
+aside {
+	margin: 0 auto
+	float:left;
+	line-height: 40px;
+}
+
+#sidebar {
+	background-color: #F5DEB3;
+	width: 8%;
+	height: 75%;
+	top: 17%;
+	left: 2%;
+	/*float: left;*/
+	margin-left: 5px;
+	padding-left: 5px;
+	opacity: 0.9;
+	position: fixed;
+	border-style: double;
+	border-color: #8B4513;
+	border-width: 9px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+
+
+#sidebar h1 {
+	word-wrap: break-word;
+	width: 3%;
+	margin-left: 30%;
+	font:normal bolder 36px/42px Shojumaru, monospace, serif;
+	text-align: center;
+	color: #191970;
+	display: inline-block; 
+	float: none;
+}
+
+#sidebar:hover { 
+	background:#B22222;
+}
+
+#sidebar ul li, #sidebar ul li ul li {
+	display: none;
+	width: 600px;
+	height: auto;
+	list-style-type: none;
+	position: relative;
+	left: 115px;
+	bottom: 400px;
+	margin-left: -5px;
+	overflow-y: scroll;
+}
+
+
+#sidebar ul li ul li {
+
+	display: none;
+	width: 300px;
+	height: auto;
+	list-style-type: none;
+	position: relative;
+	left: 180px;
+	bottom: 300px;
+	color:#191970;
+	overflow: scroll;
+}
+
+#sidebar ul li a {
+	font:normal bolder 12px arial, monospace, serif;
+	position: relative;
+	left: 30px;
+	color:#191970;
+	text-decoration: none
+	overflow:scroll;
+}
+
+#sidebar ul li a:hover {
+	color: #B22222;
+	overflow: scroll;
+}
+
+#sidebar ul li ul li, #sidebar:hover ul li ul, #sidebar:hover ul li:hover ul li ul{
+	display: none;
+	list-style-type:none; 
+	width: 80%;
+	overflow-y: scroll;
+}
+
+#sidebar:hover ul li{ 
+	display:block;
+	position: relative;
+	top: -445px; 
+	width: 400px;
+	background: wheat;
+	overflow: scroll;
+
+	}
+
+#sidebar:hover ul li ul{
+	display: none;
+	position: relative;
+	top: -445px; 
+	width: 400px;
+	background: wheat;
+	overflow: scroll;
+
+}
+/*aside > #sidebar > ul > li (topics) > ul > li (links)*/
+
+
+/*My hierarchy: aside > ul > li (topics) > ul > li (links)
+
+Note about menu:
+	Home = cssm1 > ul > li > a
+	Design = cssm1 > ul > li > a 
+	Joomla = cssm1 > ul > li > ul > li > ul > li (Design/Themes/Joomla
+*/
+
+
+
+
+
+
+
+
+
