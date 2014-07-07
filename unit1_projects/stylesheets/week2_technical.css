@@ -1,0 +1,79 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Prata', serif;
+font-family: 'Frijole', cursive;
+
+In looking at this challenge, try to design with focus on these components:
+
+What is the difference between Margin, Border, and Padding?
+What are the best practices associated with using classes vs. ids?
+What are the differences between relative, absolute, and fixed positioning?
+What does it mean to display inline vs inline blocks?
+
+*/
+
+body {
+	background-color: silver;
+	font-family: Helvetica;
+	
+	
+}
+
+h3 {
+	font-family: 'Frijole', cursive;
+}
+
+h4 {
+	font-family: 'Prata', serif;
+	font-size: 2em
+}
+
+#header {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	background: blue;
+}
+
+
+
+
+#main { 
+	position: absolute; 
+	padding: 100px 100px 200px 100px;
+	margin-right: 200px;
+	top: 0; 
+	right: 0; 
+	bottom: -1000; 
+	left: 20%; 
+	background: #B0E0E6;
+	font-size: large;
+}
+
+#code_ex {
+		border: 2px solid #000000;
+		border-radius: 5px;
+		background: silver;
+		padding: 10px;
+
+}
+
+#gutter_left{ 
+	position: fixed;
+	padding-top: 8%;
+	top: 0;
+	right: 80%; 
+	bottom: -1000;
+	left: 0;
+	
+}
+
+#footer {
+	position: fixed; 
+	bottom: 30px; 
+	left: 50px; 
+
+}
+
+
