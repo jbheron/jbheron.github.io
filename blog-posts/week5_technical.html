@@ -47,23 +47,23 @@
 <pre>is_it_true ? it's_true_so_do_x : it's_false_so_do_y</pre>
 			<p>Take note, all you need is the "?" and the ":" to separate the components.</p>
 			<p>So, then let's see the same logic from above applied with the each_with_index method, ternary operator, and with the previous code commented out, so you can see how everything migrates directly, except counter is traded for index:</p>
-<pre width>   def credit_check
-1     digits = []
-2  #    counter = 0
-3  #    while counter &#60; @cc.length
-4  #      @cc_number.each do |x|
-5  #        if counter.even?
-6  #          digits &#60;&#60; (x.to_i*2)
-7  #        else
-8  #          digits &#60;&#60; x
-9  #        end
-10 #      counter += 1
-11 #      end
-12 #    end
-13 #  end
-14    @digits=digits
-15    @cc.each_with_index { |x, i| i.even? ? digits &#60;&#60; (x.to_i*2) : digits &#60;&#60; x }
-16    end</pre>
+<pre >
+1  def credit_check
+2     @digits = []
+3  #    counter = 0
+4  #    while counter &#60; @cc.length
+5  #      @cc_number.each do |x|
+6  #        if counter.even?
+7  #          @digits &#60;&#60; (x.to_i*2)
+8  #        else
+9  #          @digits &#60;&#60; x
+10 #        end
+11 #      counter += 1
+12 #      end
+13 #    end
+14 #  end
+15    @cc.each_with_index { |x, i| i.even? ? @digits &#60;&#60; (x.to_i*2) : @digits &#60;&#60; x }
+16  end</pre>
 <p>So, what I'm getting at, is that once your logic is solid (and code runs!), get comfortable looking under the hood at the documentation for methods that accomplish your task, paying special note to what they return. Then, comment out your good code and put in new approaches to your refactor.</p><p> I hope that's easy to follow, and that it contributes to your knowledge base.</p>
 
 <p>The entire credit_check method can actually be done in one chain, using the same approach, even if it's not that pleasant looking! 
