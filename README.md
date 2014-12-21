@@ -1,4 +1,4 @@
 jbheron.github.io
 =================
 
-Wherein the maze hero gets through Phase 0.
+A personal homepage for Jess Heron. Blog, projects and contact information available.

@@ -133,6 +133,8 @@ aside {
 	border-width: 9px;
 	border-radius: 4px;
 	display: inline-block;
+	/*overflow-y: scroll;*/
+
 }
 
 
