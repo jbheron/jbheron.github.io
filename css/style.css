@@ -1,3 +1,5 @@
+
+
 /* IMPORT RESET */
 @import url("reset.css");
 
@@ -38,6 +40,9 @@ footer {
 	text-align: center;
 	background: #BBB;
 }
+div	{
+	display: block;
+}
 
  .parallax {
   height: 500px; /* fallback for older browsers */
@@ -63,14 +68,20 @@ footer {
   transform: translateZ(-1px);
 }
 
-.image {
-  width: auto;
-}
 
-.test {
+.creative_wallpaper {
   background: url("../images/creative-mind-brain-wallpaper.jpg") no-repeat;
   background-position: center top;
   width: 100%;
   height: 100%;
   /*opacity: 0.2;*/
+}
+
+
+.gears_wallpaper {
+  background: url("../images/GearsAndHands.jpg") no-repeat;
+  background-position: center top;
+  /*width: 100vw;*/
+  height: 100vh;
+  opacity: 0.5;
 }
