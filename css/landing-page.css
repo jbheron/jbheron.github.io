@@ -66,10 +66,13 @@ h6 {
 }
 
 .project-link {
-    color: #F79A3A;
+    color: #DE8A34;
+    font-weight: 700;
 }
 
-
+.ruby{
+    color: #de3534;
+}
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus{
     border: none;
@@ -124,9 +127,9 @@ h2.section-heading {
 }
 
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #C9241F;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+    border-top: 2px solid #C9241F;
+    border-bottom: 2px solid #C9241F;
 }
 
 .intro-message > h3 {
@@ -172,8 +175,12 @@ h2.section-heading {
     letter-spacing: 2px;
 }
 
+.container.section{
+    padding-top: 8%;
+}
+
 .content-section-a {
-    padding: 50px 0;
+    padding: 5% 0;
     background-color: #f8f8f8;
 }
 .content-section-blurb {
@@ -184,7 +191,7 @@ h2.section-heading {
     background-color: rgb(212, 212,212);
 }
 .content-section-b {
-    padding: 50px 0;
+    padding: 5% 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
