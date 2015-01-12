@@ -1,6 +1,6 @@
-# Jess B Heron - Landing Page
+## Jess B Heron - Landing Page
 
 
-## Full Stack Web Developer
+### Full Stack Web Developer
 
-### This repo is where I store the code for my personal website, jbheron.com. You're welcome to check it our, or be in contact. Cheers!
+This repo is where I store the code for my personal website, jbheron.com. You're welcome to check it out, or be in contact with any questions or comments. Cheers!
