@@ -32,6 +32,7 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
+    line-height: 1.6;
 }
 .img-responsive-profile,
 .thumbnail > img,
